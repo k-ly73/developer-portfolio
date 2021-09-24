@@ -1,6 +1,8 @@
 import React from 'react'
 import '../css/projects.css';
 import MuliaLogo from '../images/main-logo.jpg';
+import PhotoBumLogo from '../images/PhotoBum-White.jpg';
+import ShufflingLogo from '../images/TheShuffling.jpg';
 const Projects = () => {
     return (
         <section id="project" style={{minHeight:'934px'}}>
@@ -13,22 +15,20 @@ const Projects = () => {
                         <div className="wrapper">
                             <div>
                                 <img src={MuliaLogo}/>
+                                <br/>
+                                <p>Mulia Inc.</p>
                             </div> 
                             <div>
-                                <img src={MuliaLogo}/>
+                                <img src={PhotoBumLogo}/>
+                                <br/>
+                                <p>PhotoBum</p>
                             </div> 
                             <div>
-                                <img src={MuliaLogo}/>
+                                <img src={ShufflingLogo}/>
+                                <br/>
+                                <p>TheShuffling</p>
                             </div> 
-                            <div>
-                                <img src={MuliaLogo}/>
-                            </div> 
-                            <div>
-                                <img src={MuliaLogo}/>
-                            </div> 
-                            <div>
-                                <img src={MuliaLogo}/>
-                            </div> 
+                
                         </div>
          
                     </div>
