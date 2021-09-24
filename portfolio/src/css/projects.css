@@ -32,8 +32,21 @@ div p {
     height: auto;
     width: 100%;
     display: block;
+    
 }
 
-img:hover {
+.project img {
+    transition: transform .2s;
+}
+.project img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 992px) {
+    .project img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
 
 }

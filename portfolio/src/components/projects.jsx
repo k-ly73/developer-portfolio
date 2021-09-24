@@ -12,18 +12,18 @@ const Projects = () => {
                         <h1>Projects</h1>
                     </div>   
                     <div className="row project-container">
-                        <div className="wrapper">
-                            <div>
+                        <div className="wrapper ">
+                            <div className="project">
                                 <img src={MuliaLogo}/>
                                 <br/>
                                 <p>Mulia Inc.</p>
                             </div> 
-                            <div>
+                            <div className="project">
                                 <img src={PhotoBumLogo}/>
                                 <br/>
                                 <p>PhotoBum</p>
                             </div> 
-                            <div>
+                            <div className="project">
                                 <img src={ShufflingLogo}/>
                                 <br/>
                                 <p>TheShuffling</p>
