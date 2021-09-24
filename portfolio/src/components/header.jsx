@@ -1,19 +1,22 @@
 import React from 'react';
-import '../css/header.css';
-import NameAnimation from './animations/text-animation';
+import '../css/header.scss';
+// import NameAnimation from './animations/text-animation';
 const Header = () => {
     return (
         <header id="home" style={{minHeight: "934px"}}>
             <div className="header">
                 <div className="container-fluid">
                     <div className="row banner">
+
                         <div className="col-lg-12">
-                            
-                            <h1><NameAnimation/></h1>
-                            <p>
-                                Interactive Developer
-                            </p>
-                           
+                            <div className="animation-wrap">
+                                <div className="typewriter-text">
+                                    <h1>Kevin Ly</h1>
+                                    
+                                </div>
+                            </div>
+                            <p>Interactive Web Developer</p>
+
 
                         </div>
 

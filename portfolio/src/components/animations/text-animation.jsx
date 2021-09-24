@@ -18,44 +18,49 @@ export default function NameAnimation() {
 }
 
 const hero_animation = keyframes`
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
+    from {
+        width: 0;
+    }
+    to {
+        width: 0.7em; 
+    }
 `
 
 const NameWrapper = styled.span`
-    display: inline-block;
+    
     span {
         display: inline-block;
         animation-name: ${hero_animation};
-        animation-duration: 4s;
-        animation-fill-mode: forwards;
+        animation-duration: 3s;
+        animation-timing-function: steps(44);
+        animation-fill-mode: both;
+        animation-direction: normal;
         animation-iteration-count: infinite;
-        white-space:pre;
+        
     }
     span:nth-child(1) {
-        animation-delay: 0.2;
+        animation-delay: 0.1s;
     }
     span:nth-child(2) {
-        
+        animation-delay: 0.2s;
     }
     span:nth-child(3) {
-        
+        animation-delay: 0.3s;
     }
     span:nth-child(4) {
-        
+        animation-delay: 0.4s;
     }
     span:nth-child(5) {
-        
+        animation-delay: 0.5s;
     }
     span:nth-child(6) {
-        
+        animation-delay: 0.6s;
     }
     span:nth-child(7) {
-        
+        animation-delay: 0.7s;
     }
     span:nth-child(8) {
-        
+        animation-delay: 0.8s;
     }
 
 `

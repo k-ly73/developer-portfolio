@@ -1,0 +1,53 @@
+.header {
+    background-color: rgb(221, 231, 195);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.header .banner {
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding: 30px;
+    text-align: center;
+}
+
+.animation-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.animation-wrap .typewriter-text {
+    overflow: hidden;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    animation: typewriter 8s steps(8) infinite, caret 0.7s infinite step-end;
+}
+.animation-wrap .typewriter-text h1 {
+    font-size: 100px;
+}
+@keyframes typewriter{
+    0% { width: 0ch; }
+    10% { width: 0ch; }
+    20% { width: 45ch; }
+    80% { width: 45ch; }
+    90% { width: 45ch; }
+    100% { width: 0ch; }
+}
+
+@keyframes caret{
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
