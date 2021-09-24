@@ -1,0 +1,20 @@
+.header {
+  background-color: rgb(221, 231, 195);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.header .banner {
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 85%;
+  padding: 30px;
+  text-align: center;
+}
+
+.title-container {
+  height: 40px;
+}

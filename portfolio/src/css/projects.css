@@ -1,0 +1,37 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.project-header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(221, 231, 195);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.project-container {
+    padding: 50px;
+}
+.project-title {
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+}
+
+.wrapper {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4em;
+}
+
+.wrapper img {
+    height: auto;
+    width: 100%;
+}
