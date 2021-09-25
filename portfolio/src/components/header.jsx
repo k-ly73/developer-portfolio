@@ -15,7 +15,7 @@ const Header = () => {
                                     
                                 </div>
                             </div>
-                            <p>Interactive Web Developer</p>
+                            <p>Interactive UI Web Developer</p>
 
 
                         </div>
